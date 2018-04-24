@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>The Geoscience Paper of the Future - What is a GPF</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    //load the parts of the page that are always the same across the portal
+    $("#footerContent").load("footer.html");
+});
+</script>
+<style>
+.selected{
+background-color:#79949f ;
+}
+</style>
+<body>
+
+<header class="w3-container w3-theme w3-padding w3-center" id="topMenu"> 
+<div class="w3-container">
+    <div class="w3-quarter w3-container w3-padding-8">
+        <a href="index.html"><img src="../images/gpf-onto-logo.png" width="80" style="float:right"/></a> 
+    </div>
+    <div class="w3-half w3-container">
+        <h2>The Geoscience Paper of the Future Initiative</h2>
+    </div>
+</div>  
+  
+<div class="w3-center">
+    <div class="w3-bar w3-theme">
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-8">Home</a>
+      <a href="motivation.html" class="w3-bar-item w3-button w3-padding-8">Motivation</a>
+      <a href="gpf.html" class="w3-bar-item w3-button w3-padding-8 selected">What is a GPF</a>
+      <a href="special.html" class="w3-bar-item w3-button w3-padding-8">Special Issue</a>
+      <a href="sessions.html" class="w3-bar-item w3-button w3-padding-8">Sessions</a>
+      <a href="materials.html" class="w3-bar-item w3-button w3-padding-8">Materials</a>
+      <a href="events.html" class="w3-bar-item w3-button w3-padding-8">Events</a>
+      <a href="gallery.html" class="w3-bar-item w3-button w3-padding-8">Gallery</a>
+      <a href="faq.html" class="w3-bar-item w3-button w3-padding-8">FAQ</a>
+      <a href="organization.html" class="w3-bar-item w3-button w3-padding-8">Organization</a>
+      <a href="sponsor.html" class="w3-bar-item w3-button w3-padding-8">Sponsorship</a>
+    </div>  
+</div>
+</header>
+
+
+<div class="w3-content">
+<h2>What is a Geoscience Paper of the Future</h2>
+<p>A GPF aims to satisfy the following requirements:</p>
+<ul><li><b>Data requirements</b>: Making data available in a public repository, including documented metadata, a clear license specifying conditions of use, and citable using a unique and persistent identifier.
+</li><li><b>Software requirements</b>: Making software available in a public repository, with documentation, a license for reuse, and a unique and citable persistent identifier.  This includes not only modeling software, but also other ancillary software for data reformatting, data conversions, data filtering, and data visualization.
+</li><li><b>Provenance requirements</b>: Documenting the provenance of results by explicitly describing the series of computations and their outcome in a workflow sketch, a formal workflow, or a provenance record, possibly in a shared repository and with a unique and persistent identifier.
+</li></ul><p>This is a schematic of the key aspects of geoscience papers of the future:</p>
+<p><img src="../images/SPF-pics2.jpg" alt="GPF Diagram" class="imgp_img" height="500" /></p>
+<p>A Geoscience Paper of the Future (GPF) includes data, software and provenance as expected in reproducible publications, but also includes desirable features in open science and digital scholarship: 1) sharing of data, software, and other research products in public repositories, 2) use of open licenses, 3) metadata that describes the characteristics of data, software, and other research products, 4) persistent unique identifiers for data, software, and other research products, and 5) citations for all digital resources mentioned in the paper.  </p>
+<p>GPF authors may find practical impediments to follow some of these recommendations, and in that case they should state their desire to do so and document the reasons for not following them.  Common challenges include the reluctance by co-authors for sharing specific data or software, the difficulty to fully describe their experiments, the inability to share due to technological limitations (size, dependencies, existing repositories, infrastucture, etc.), and the necessity to simplify the approach for broad use (i.e. generating figures with easier formatting than generally used in published form).  When faced with such challenges, GPF authors should reflect on the difficulties they may face, pursue workarounds, and propose areas for future improvements.  </p>
+<br/>
+
+</div>
+
+<!-- Footer (defined in footer.html)-->
+<footer class="w3-container w3-theme-dark w3-padding-16" style="box-shadow:0 50vh 0 50vh #303E45;" id ="footerContent">
+</footer>
+
+</body>
+</html>
